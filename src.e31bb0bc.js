@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\images\\sprite.svg":[["sprite.5ec50489.svg","images/sprite.svg"],"images/sprite.svg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
+},{"./..\\images\\how-its-made\\milk-mobile.png":[["milk-mobile.9a4c6c54.png","images/how-its-made/milk-mobile.png"],"images/how-its-made/milk-mobile.png"],"./..\\images\\how-its-made\\milk-mobile@2x.png":[["milk-mobile@2x.ffb24dc2.png","images/how-its-made/milk-mobile@2x.png"],"images/how-its-made/milk-mobile@2x.png"],"./..\\images\\how-its-made\\milk-desktop.png":[["milk-desktop.417173be.png","images/how-its-made/milk-desktop.png"],"images/how-its-made/milk-desktop.png"],"./..\\images\\how-its-made\\milk-desktop@2x.png":[["milk-desktop@2x.5b4141d8.png","images/how-its-made/milk-desktop@2x.png"],"images/how-its-made/milk-desktop@2x.png"],"./..\\images\\reviews\\quotes.svg":[["quotes.0bc66e65.svg","images/reviews/quotes.svg"],"images/reviews/quotes.svg"],"./..\\images\\locations\\spots-desktop.png":[["spots-desktop.10c41a1d.png","images/locations/spots-desktop.png"],"images/locations/spots-desktop.png"],"./..\\images\\locations\\spots-desktop@2x.png":[["spots-desktop@2x.dbda547f.png","images/locations/spots-desktop@2x.png"],"images/locations/spots-desktop@2x.png"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 require("./sass/main.scss");
@@ -221,7 +221,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56300" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52600" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

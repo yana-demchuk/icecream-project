@@ -135,8 +135,7 @@ padding-bottom: 20px;
       background-image: url(../images/reviews/quotes.svg);
   width: 54px;
   height: 40px;
-  // fill: #E1E1E1;
-  @media screen and (min-width: 768px) {
+    @media screen and (min-width: 768px) {
       left: -20px;
       top:-17px;
   }
@@ -175,7 +174,6 @@ color: $first-text-color;
   }
 }
 .review-card-author {
-//   position: relative;
 font-weight: 500;
 font-size: 14px;
 font-style: normal;
